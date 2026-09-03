@@ -12,7 +12,7 @@ public class swap {
          int c=a;
          a=b;
          b=c;
-         System.out.println("SWAPPING" );
+         System.out.println("SWAPPING DONE" );
         System.out.println("the value of A is:" + a );
         System.out.println("the value of B is:" + b );
        
