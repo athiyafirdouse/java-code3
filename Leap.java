@@ -6,7 +6,7 @@ public class Leap {
     int year=sc.nextInt();
     if(year % 400 ==0)
     {
-       System.out.println("your year is leap yaer");
+       System.out.println("your year is leap yaer");// (or)if(year %400==0||(year %4==0&&year %100!=0))
     }
     else if(year % 4==0 && year % 100 !=0)
     {
