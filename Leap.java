@@ -8,11 +8,7 @@ public class Leap {
     {
        System.out.println("your year is leap yaer");
     }
-    else if (year % 100 ==0)
-    {
-        System.out.println("your year is not a leap yaer");
-    }
-    else if(year %4==0)
+    else if(year % 4==0 && year % 100 !=0)
     {
         System.out.println("your year is leap year");
     }
