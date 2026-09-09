@@ -7,18 +7,18 @@ public class Lcm1 {
         int num1 = sc.nextInt();
         System.out.println("enter the second number");
         int num2 = sc.nextInt();
-        int Lcm = findLCM(num1,num2);
+        int Lcm = findLCM(num1,num2);  
         System.out.println("LCM of" + num1 + "and" + num2 + "is:"+Lcm);
         sc.close();
     }
     
-    public static int findLCM(int num1,int num2)
+    public static int findLCM(int num1,int num2)   
     {
-        int max= (num1>num2) ? num1 :num2;
+        int max= (num1>num2) ? num1 :num2;   //ternary /conditional operator
 
         while(true)
         {
-            if(max % num1 ==0 && max % num2 ==0)
+            if(max % num1 ==0 && max % num2 ==0)   
             {
                 return max;
             }
