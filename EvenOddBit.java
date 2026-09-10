@@ -5,7 +5,7 @@ public class EvenOddBit {
         System.out.println("enter the number");
         int Num = sc.nextInt();
         
-        if((Num & 1)==1)
+        if((Num & 1)==1) //check the bit is 0 and 1
         {
            System.out.println("your number is odd");
         }

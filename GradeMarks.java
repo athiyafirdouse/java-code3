@@ -22,7 +22,7 @@ public class GradeMarks
     {
         System.out.println("you got D grade");
     }
-    else if(marks>=30)
+    else if(marks<=30)
     {
         System.out.println("you got F grade");
     }

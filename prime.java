@@ -4,8 +4,8 @@ public class prime {
         Scanner sc= new Scanner (System.in);
         System.out.println("enter the number");
         int num = sc.nextInt();
-        boolean isPrime = isPrime(num);
-        if(isPrime)
+        boolean isPrime = isPrime(num);   //call the method
+        if(isPrime)                                               
         {
             System.out.println("your number is prime");
 
@@ -15,7 +15,10 @@ public class prime {
         }
     }
     
-    public static boolean isPrime(int num)
+    public static boolean isPrime(int num)            /*public static boolean isPrime(int num)
+Takes a number as input.
+Returns true if prime.
+Returns false if not prime.*/
     {
         int i=2;
         while(i<num)

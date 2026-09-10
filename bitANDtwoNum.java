@@ -10,7 +10,7 @@ public class bitANDtwoNum {
 
         int result = num1 & num2;
         System.out.println("result is:"+ result);
-
+        sc.close();
     }
     
 }
