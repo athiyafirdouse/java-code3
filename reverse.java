@@ -22,9 +22,10 @@ public class reverse {
 
         while (num > 0) {
 
-            int digit = num % 10;
-            newNum = newNum * 10 + digit;
-            num = num / 10;
+            int digit = num % 10;            //eg:1234 % 10 = 4digit
+                                                                
+            newNum = newNum * 10 + digit;  //0*10+4
+            num = num / 10;  //remove last digith  eg:123%10=3 digit
         }
 
         return newNum;
