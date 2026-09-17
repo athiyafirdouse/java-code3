@@ -6,7 +6,7 @@ public class missingNum {
 
         int n = arr.length + 1;
 
-        int totalSum = n * (n + 1) / 2;
+        int totalSum = n * (n + 1) / 2; //formula
 
         int arraySum = 0;
 
@@ -14,7 +14,7 @@ public class missingNum {
             arraySum = arraySum + arr[i];
         }
 
-        int missingNumber = totalSum - arraySum;
+        int missingNumber = totalSum - arraySum;  
 
         System.out.println("Missing Number = " + missingNumber);
     }
